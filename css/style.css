@@ -81,3 +81,94 @@ Set background color white
   fb,insta,twitter,linkin
 */
 
+*{
+  margin:0;
+  padding:0;
+}
+
+.first-section{
+background-image: url(/img/header-bg.jpeg);
+height: 28em;
+width=100%;
+text-align: center;
+color:white;
+font-family: helvetica;
+}
+
+.h1-header{
+  padding: 3em 0 1em 0;
+  font-size: 3em;
+}
+
+.btn-header{
+  display: block;
+  background-color:white ;
+  padding: 0.5em;
+  width: 20%;
+  margin:auto;
+  box-shadow: 1px 1px 1px  grey;
+}
+.p-header{
+  padding:1em;
+}
+
+.second-section{
+  width=100%;
+  text-align: center;
+  font-family: helvetica;
+  }
+
+.t-header{
+  font-size: 1.5em;
+  padding: 1em 0 1em 0;
+}
+.p-desc{
+  padding:0 0 1em 0 ;
+}
+
+.third-section{
+background-color:black;
+/* overflow: hidden; */
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+grid-gap: 0.25em;
+margin: auto;
+/* max-width: 50em; */
+padding: 0 em;
+}
+
+.third-section-article{
+  background-color: white;
+  overflow: hidden;
+  display: block;
+  font-family: helvetica;
+  margin: 0.25em 0;
+  text-align: center;
+
+}
+.prg-img{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.h2-prg{
+  font-size: 1em;
+  padding: 0.5em 0;
+}
+.p-prg{
+  font-family: helvetica;
+  font-size:0.8em;
+}
+
+.forth-section1{
+display: grid;
+grid-template-columns: 50% 50%;
+background-color: teal;
+color: white;
+font-family: helvetica;
+font-size: 1.5em;
+padding: 2em 0;
+}
+
+.forth-section2
